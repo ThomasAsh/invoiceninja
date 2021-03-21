@@ -56,7 +56,7 @@ RUN { \
 
 ENV INVOICENINJA_VERSION 5
 
-RUN curl -o ninja.zip -SL https://drive.google.com/file/d/15CtpknIa9fpKn7S2nz4Cv8Zktd6cxGDf/view?usp=sharing \
+RUN curl -o ninja.zip -SL https://drive.google.com/u/0/uc?export=download&confirm=Jutc&id=15CtpknIa9fpKn7S2nz4Cv8Zktd6cxGDf \
     && unzip -q ninja.zip -d /var/www/ \
     && rm ninja.zip \
     && mv /var/www/ninja /var/www/app \
